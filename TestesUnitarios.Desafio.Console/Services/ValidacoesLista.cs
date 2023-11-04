@@ -20,7 +20,7 @@ namespace TestesUnitarios.Desafio.Console.Services
             return listaMultiplicada;
         }
 
-        public int RetornarMaiorNumeroLista(List<int> lista)
+        public int RetornarMaiorNumeroLista(List<int> lista, int numeroParaProcurar)
         {
             return lista.Max();
         }
@@ -28,6 +28,16 @@ namespace TestesUnitarios.Desafio.Console.Services
         public int RetornarMenorNumeroLista(List<int> lista)
         {
             return lista.Min();
+        }
+
+        public IEnumerable<int> MultiplicarElementosDaListaPor2(List<int> lista)
+        {
+            throw new NotImplementedException();
+        }
+
+        public int RetornarMaiorNumeroLista(List<int> lista)
+        {
+            throw new NotImplementedException();
         }
     }
 }
